@@ -7,7 +7,6 @@ C:\Projects\SalesWeb\bin\Debug\netcoreapp2.1\SalesWeb.dll
 C:\Projects\SalesWeb\bin\Debug\netcoreapp2.1\SalesWeb.pdb
 C:\Projects\SalesWeb\bin\Debug\netcoreapp2.1\SalesWeb.Views.dll
 C:\Projects\SalesWeb\bin\Debug\netcoreapp2.1\SalesWeb.Views.pdb
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.csprojAssemblyReference.cache
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.AssemblyInfoInputs.cache
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.AssemblyInfo.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.csproj.CoreCompileInputs.cache
