@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesWeb.Data;
+using SalesWeb.Services;
 
 namespace SalesWeb
 {
@@ -40,17 +41,19 @@ namespace SalesWeb
                     options.UseSqlServer(Configuration.GetConnectionString("SalesWebContext"), builder => builder.MigrationsAssembly("SalesWeb")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService,SellerService sellerService)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 //TODO Seed method returns can insert cuse INSERT_IDENTITY OFF from Departaments
                 //seedingService.Seed();
+                
             }
             else
             {
