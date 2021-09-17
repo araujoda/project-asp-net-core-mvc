@@ -26,8 +26,6 @@ namespace SalesWeb.Models
         }
         public double TotalSales(DateTime initial, DateTime final)
         {
-
-
             return Sellers.Sum(seller => seller.totalSales(initial, final) );
         }
     }
