@@ -21,7 +21,7 @@ namespace SalesWeb.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("SalesWeb.Models.Departament", b =>
+            modelBuilder.Entity("SalesWeb.Models.Department", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,7 +31,7 @@ namespace SalesWeb.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Departament");
+                    b.ToTable("Department");
                 });
 
             modelBuilder.Entity("SalesWeb.Models.SalesRecord", b =>
@@ -63,7 +63,7 @@ namespace SalesWeb.Migrations
 
                     b.Property<double>("BaseSalary");
 
-                    b.Property<int?>("DepartamentId");
+                    b.Property<int?>("DepartmentId");
 
                     b.Property<string>("Email");
 
@@ -73,7 +73,7 @@ namespace SalesWeb.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DepartamentId");
+                    b.HasIndex("DepartmentId");
 
                     b.ToTable("Seller");
                 });
@@ -87,9 +87,9 @@ namespace SalesWeb.Migrations
 
             modelBuilder.Entity("SalesWeb.Models.Seller", b =>
                 {
-                    b.HasOne("SalesWeb.Models.Departament", "Departament")
+                    b.HasOne("SalesWeb.Models.Department", "Department")
                         .WithMany("Sellers")
-                        .HasForeignKey("DepartamentId");
+                        .HasForeignKey("DepartmentId");
                 });
 #pragma warning restore 612, 618
         }

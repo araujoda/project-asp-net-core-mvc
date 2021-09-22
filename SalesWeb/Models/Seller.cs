@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,22 +11,24 @@ namespace SalesWeb.Models
         {
         }
 
-        public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Departament departament)
+        public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Department department)
         {
             Id = id;
             Name = name;
             Email = email;
             this.BirthDate = birthDate;
             BaseSalary = baseSalary;
-            Departament = departament;
+            Department = department;
         }
 
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
-        public Departament Departament { get; set; }
+        public Department Department { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public void AddSales(SalesRecord sr)

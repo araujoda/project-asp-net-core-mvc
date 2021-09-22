@@ -51,8 +51,8 @@ namespace SalesWeb
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                //TODO Seed method returns can insert cuse INSERT_IDENTITY OFF from Departaments
-                //seedingService.Seed();
+                //TODO Seed method returns can insert cuse INSERT_IDENTITY OFF from Departments
+                seedingService.Seed();
                 
             }
             else
