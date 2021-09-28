@@ -6,11 +6,6 @@ C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.RazorAssemblyInfo.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.TagHelpers.input.cache
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.TagHelpers.output.cache
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.RazorCoreGenerate.cache
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departaments\Create.cshtml.g.cs
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departaments\Delete.cshtml.g.cs
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departaments\Details.cshtml.g.cs
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departaments\Edit.cshtml.g.cs
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departaments\Index.cshtml.g.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
@@ -39,5 +34,11 @@ C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.Views.pdb
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.genruntimeconfig.cache
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.csproj.CopyComplete
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.csprojAssemblyReference.cache
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Create.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Delete.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
