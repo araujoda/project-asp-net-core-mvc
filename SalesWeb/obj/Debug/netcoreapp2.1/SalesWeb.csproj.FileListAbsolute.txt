@@ -45,4 +45,5 @@ C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtm
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\Index.cshtml.g.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\GroupingSearch.cshtml.g.cs
 C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\SimpleSearch.cshtml.g.cs
-C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\SalesWeb.csprojAssemblyReference.cache
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Projects\SalesWeb\obj\Debug\netcoreapp2.1\Razor\Views\Products\Create.cshtml.g.cs

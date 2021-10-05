@@ -21,7 +21,8 @@ namespace SalesWeb.Data
         {
             if (_context.Department.Any() ||
                 _context.Seller.Any() ||
-                _context.SalesRecord.Any())
+                _context.SalesRecord.Any() ||
+                _context.Product.Any())
             {
                 return; // DB foi populado
             }
@@ -69,6 +70,19 @@ namespace SalesWeb.Data
             SalesRecord r29 = new SalesRecord(new int(), new DateTime(2018, 10, 23), 12000.0, SaleStatus.Billed, s5);
             SalesRecord r30 = new SalesRecord(new int(), new DateTime(2018, 10, 12), 5000.0, SaleStatus.Billed, s2);
 
+
+            //d1 "Computers"
+            //d2 "Electronics"
+            //d3 "Fashion"
+            //d4 "Books"
+
+            Product p1 = new Product(new int(), "NoteBook Dell", 2700.00, 1, d1);
+            Product p2 = new Product(new int(), "Ipod X", 10700.00, 1, d2);
+            Product p3 = new Product(new int(), "Iphone", 2700.00, 1, d2);
+            Product p4 = new Product(new int(), "T-Shirt RipCrul", 200.00, 1, d3);
+            Product p5 = new Product(new int(), "Lord of the Rings", 40.00, 2, d4);
+            Product p6 = new Product(new int(), "Development for Dummies", 25.00, 10, d4);
+
             _context.Department.AddRange(d1, d2, d3, d4);
 
             _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
@@ -78,6 +92,8 @@ namespace SalesWeb.Data
                 r11, r12, r13, r14, r15, r16, r17, r18, r19, r20,
                 r21, r22, r23, r24, r25, r26, r27, r28, r29, r30
             );
+
+            _context.Product.AddRange(p1, p2, p3, p4, p5, p6);
 
             _context.SaveChanges();
         }

@@ -31,8 +31,8 @@ namespace SalesWeb.Controllers
         }
         public async Task<IActionResult> Create()
         {
-            var departaments = await _departmentService.FindAllAsync();
-            var viewModel = new SellerFormViewModel { Departments = departaments };
+            var departments = await _departmentService.FindAllAsync();
+            var viewModel = new SellerFormViewModel { Departments = departments };
             return View(viewModel);
         }
 

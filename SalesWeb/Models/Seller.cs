@@ -14,7 +14,7 @@ namespace SalesWeb.Models
             Id = id;
             Name = name;
             Email = email;
-            this.BirthDate = birthDate;
+            BirthDate = birthDate;
             BaseSalary = baseSalary;
             Department = department;
         }
@@ -47,8 +47,12 @@ namespace SalesWeb.Models
         [DisplayFormat(DataFormatString = "{0:F2}")]
         public double BaseSalary { get; set; }
 
+     
         public Department Department { get; set; }
+
+        [Display(Name = "Department")]
         public int DepartmentId { get; set; }
+
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public void AddSales(SalesRecord sr)
